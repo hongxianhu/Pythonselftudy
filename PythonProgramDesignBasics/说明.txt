@@ -1,0 +1,207 @@
+Python程序设计基础
+
+关键字:
+    if elif else and not 
+    or None True False from 
+    import class def return yield 
+    lambda pass for while break 
+    continue in is with as 
+    global nonlocal del try 
+    except assert finally raise 
+
+运算符:
+    +-*/%//=**
+
+优先级:
+
+    **
+    */%//
+    +-
+
+正/反\
+
+字符串转义字符:
+    \n\t\'\"\\
+
+输入输出:
+variable = expression
+variable = input(prompt)
+
+print('aa',end='\n')
+print('aa','zz',sep=' ')
+
+{placeholder:format-specifier}
+format-specifier ==> [alignment][width][,][.precision][type]
+
+
+turtle_function:
+    “distance距离，angle角度”
+    turtle.setup(width, height) 设置画布大小
+    turtle.hideturtle() 隐藏箭头
+    turtle.showturtle() 显示箭头
+    turtle.forward(distance) 前进
+    turtle.backward(distance) 后退
+    turtle.right(angle) 右转
+    turtle.left(angle) 左转
+    turtle.penup() 提笔
+    turtle.pendown() 落笔
+    turtle.goto(x,y) 移动到指定坐标
+    turtle.pos() 获取当前位置
+    turtle.setheading(angle) 设置朝向
+    turtle.heading() 获取当前朝向
+    turtle.circle(radius, extent=None, steps=None) 画圆
+    turtle.dot() 画点
+    turtle.color(colorname) 设置颜色
+    turtle.fillcolor(colorname) 设置填充颜色
+    turtle.begin_fill() 开始填充
+    turtle.end_fill() 结束填充
+    turtle.speed(speed) 设置速度 0-10
+    turtle.done() 结束绘图
+    turtle.pensize() 设置画笔粗细
+    turtle.pencolor(colorname) 设置画笔颜色
+    turtle.bgcolor(colorname) 设置背景颜色
+    turtle.reset() 重置画布
+    turtle.clear() 清除画布
+    turtle.clearscreen() 清除屏幕
+    turtle.write(text, font=('Arial', 8, 'normal')) 写字
+    variable = turtle.numinput(title, prompt, defualt=x, minval=y, maxval=z) 获取数字输入
+    variable = turtle.textinput(title, prompt)  获取文本输入
+常用数据结构:
+    列表 list []
+    元组 tuple ()
+    字典 dict {}
+    集合 set {1,2,3}
+    字符串 str ' ' " "
+    列表推导式 [expression for item in iterable if condition]
+    字典推导式 {key_expression: value_expression for item in iterable if condition}
+    集合推导式 {expression for item in iterable if condition}
+函数:
+    def function_name(parameters):
+        """docstring"""
+        function_body
+        return value
+    lambda parameters: expression
+模块:
+    import module_name
+    from module_name import function_name
+    from module_name import *
+    import module_name as alias
+异常处理:
+    try:
+        code_block
+    except ExceptionType as e:
+        exception_handling_code
+    else:
+        code_if_no_exception
+    finally:
+        code_always_executed
+文件操作:
+    with open('filename', 'mode') as file_variable:
+        file_operations
+常用方法:
+    len() 获取长度
+    type() 获取类型
+    str() 转字符串
+    int() 转整数
+    float() 转浮点数
+    list() 转列表
+    tuple() 转元组
+    dict() 转字典
+    set() 转集合
+    range() 生成数字序列
+    enumerate() 枚举序列
+    zip() 聚合多个可迭代对象
+    map() 映射函数到可迭代对象
+    filter() 过滤可迭代对象
+    sorted() 排序可迭代对象
+    sum() 求和
+    min() 最小值
+    max() 最大值
+    abs() 绝对值
+    round() 四舍五入
+    input() 获取用户输入
+    print() 输出信息
+常用方法:
+    list.append() 添加元素到列表末尾
+    list.insert() 在指定位置插入元素
+    list.remove() 移除指定元素
+    list.pop() 移除并返回指定位置的元素
+    list.index() 获取元素索引
+    list.sort() 对列表进行排序
+    dict.keys() 获取字典所有键
+    dict.values() 获取字典所有值
+    dict.items() 获取字典所有键值对
+    dict.get() 获取指定键的值
+    dict.update() 更新字典
+    set.add() 添加元素到集合
+    set.remove() 移除指定元素
+    set.union() 并集
+    set.intersection() 交集
+    set.difference() 差集
+常用内置模块:
+    math 数学函数
+    random 随机数生成
+    datetime 日期和时间处理
+    os 操作系统接口
+    sys 系统特定参数和函数
+    re 正则表达式
+    json JSON编码和解码
+    turtle 画图模块
+    tkinter 图形用户界面
+    collections 高级数据结构
+    itertools 迭代器函数
+    functools 高阶函数和操作
+常用快捷键:
+    Ctrl + C 复制
+    Ctrl + X 剪切
+    Ctrl + V 粘贴
+    Ctrl + Z 撤销
+    Ctrl + Y 重做
+    Ctrl + S 保存
+    Ctrl + O 打开文件
+    Ctrl + N 新建文件
+    Ctrl + F 查找
+    Ctrl + H 替换
+    Ctrl + A 全选
+    Ctrl + P 打印
+    Ctrl + B 加粗
+    Ctrl + I 斜体
+    Ctrl + U 下划线
+    F5 运行程序
+    F11 全屏切换
+    turtle.setup(width, height) 设置画布大小
+    turtle.hideturtle() 隐藏箭头
+    turtle.showturtle() 显示箭头
+    turtle.forward(distance) 前进
+    turtle.backward(distance) 后退
+    turtle.right(angle) 右转
+    turtle.left(angle) 左转
+    turtle.penup() 提笔
+    turtle.pendown() 落笔
+    turtle.goto(x,y) 移动到指定坐标
+    turtle.pos() 获取当前位置
+    turtle.setheading(angle) 设置朝向
+    turtle.heading() 获取当前朝向
+    turtle.circle(radius, extent=None, steps=None) 画圆
+    turtle.dot() 画点
+    turtle.color(colorname) 设置颜色
+    turtle.fillcolor(colorname) 设置填充颜色
+    turtle.begin_fill() 开始填充
+    turtle.end_fill() 结束填充
+    turtle.speed(speed) 设置速度 0-10
+    turtle.done() 结束绘图
+    turtle.pensize() 设置画笔粗细
+    turtle.pencolor(colorname) 设置画笔颜色
+    turtle.bgcolor(colorname) 设置背景颜色
+    turtle.reset() 重置画布
+    turtle.clear() 清除画布
+    turtle.clearscreen() 清除屏幕
+    turtle.write(text, font=('Arial', 8, 'normal')) 写字
+    variable = turtle.numinput(title, prompt, defualt=x, minval=y, maxval=z) 获取数字输入
+    variable = turtle.textinput(title, prompt)  获取文本输入
+    turtle.write()
+    --- IGNORE ---
+    variable = turtle.numinput(title, prompt, defualt=x, minval=y, maxval=z)
+    --- IGNORE ---
+    variable = turtle.textinput(title, prompt)
+    --- IGNORE ---
