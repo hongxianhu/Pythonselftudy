@@ -115,8 +115,24 @@ format-specifier ==> [alignment][width][,][.precision][type]
     set.difference() 差集
 
 常用内置模块:
-    math 数学函数
-    random 随机数生成
+    math 数学函数和常量:
+        math.sqrt() 平方根
+        math.pow() 幂运算
+        math.sin() 正弦
+        math.cos() 余弦
+        math.tan() 正切
+        math.log() 对数
+        math.factorial() 阶乘
+        math.pi 圆周率
+        math.e 自然常数
+    random 随机数生成:
+        random.randint() 生成指定范围内的随机整数
+        random.choice() 从序列中随机选择一个元素
+        random.randrange()
+        random.ramdom()
+        random.uniform()
+        random.seed()  
+
     datetime 日期和时间处理
     os 操作系统接口
     sys 系统特定参数和函数
@@ -183,7 +199,7 @@ turtle_function:
     turtle.xcor()
     turtle.ycor()
     turtle.isdown()
-    turtle.isvisible()
+    turtle.isvisible()  
     turtle.pencolor()
     turtle.fillcolor()
     turtle.bgcolor()
