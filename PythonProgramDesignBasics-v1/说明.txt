@@ -113,6 +113,7 @@ format-specifier ==> [alignment][width][,][.precision][type]
     set.union() 并集
     set.intersection() 交集
     set.difference() 差集
+    
 
 常用内置模块:
     math 数学函数和常量:
@@ -128,13 +129,18 @@ format-specifier ==> [alignment][width][,][.precision][type]
     random 随机数生成:
         random.randint() 生成指定范围内的随机整数
         random.choice() 从序列中随机选择一个元素
-        random.randrange()
-        random.ramdom()
-        random.uniform()
-        random.seed()  
+        random.choices()
+        random.sample()
+        random.randrange() 生成指定范围内的随机数
+        random.ramdom() 生成0到1之间的随机浮点数
+        random.uniform() 生成指定范围内的随机浮点数
+        random.seed()  设置随机数种子
+        
 
     datetime 日期和时间处理
-    os 操作系统接口
+    os 操作系统接口:
+        os.remove(file_name) 删除文件
+        os.rename(file_name,new_file_name) 重命名文件
     sys 系统特定参数和函数
     re 正则表达式
     json JSON编码和解码
@@ -204,4 +210,4 @@ turtle_function:
     turtle.fillcolor()
     turtle.bgcolor()
     turtle.pensize()
-    turtle.speed()
+    turtle.speed()h
