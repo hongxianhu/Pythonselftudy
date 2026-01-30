@@ -12,7 +12,6 @@ def get_login_name(first: str, last: str, idnumber: str) -> str:
     return login_name
 
 
-get_login_name("as", "ass", "123")
 
 
 # 密码验证器
@@ -23,13 +22,13 @@ def valid_password(password: str) -> bool:
     has_dight = False
     if len(password) >= 7:
         correct_lenght = True
-
+        
         for ch in password:
             if ch.isupper():
                 has_uppercase = True
             if ch.islower():
                 has_lowercase = True
-            if ch.isdight():
+            if ch.isdigit():
                 has_dight = True
 
     if correct_lenght and has_uppercase and has_lowercase and has_dight:
@@ -38,3 +37,4 @@ def valid_password(password: str) -> bool:
         is_valid = False
 
     return is_valid
+valid_password("Leopard6")
